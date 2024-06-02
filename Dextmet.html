@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dextmet Qro - Instalación de Vidrio y Aluminio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-image: url('portada.png');
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 4rem 1rem;
+            position: relative;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Oscurecer la imagen para que el texto sea más legible */
+        }
+        header h1, header p {
+            position: relative;
+            z-index: 1;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .services, .catalogs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .service, .catalog {
+            background-color: white;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            flex: 1 1 calc(33.333% - 1rem);
+            box-sizing: border-box;
+        }
+        .service img, .catalog img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .social-media a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .map-container {
+            width: 100%;
+            height: 400px;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dextmet Qro</h1>
+        <p>Instalación de Vidrio y Aluminio en Querétaro</p>
+    </header>
+    <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#catalogos">Catálogos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="container">
+        <section id="nosotros">
+            <h2>Nosotros</h2>
+            <p>Somos Dextmet Qro, una empresa especializada en la instalación de vidrio y aluminio en la ciudad de Querétaro. Nos enorgullece ofrecer servicios de alta calidad, adaptados a las necesidades de nuestros clientes.</p>
+            <img src="images/nosotros.jpg" alt="Imagen de la empresa">
+        </section>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="services">
+                <div class="service">
+                    <img src="images/servicio1.jpg" alt="Instalación de ventanas de aluminio">
+                    <h3>Instalación de ventanas de aluminio</h3>
+                </div>
+                <div class="service">
+                    <img src="images/servicio2.jpg" alt="Instalación de puertas de vidrio y aluminio">
+                    <h3>Instalación de puertas de vidrio y aluminio</h3>
+                </div>
+                <div class="service">
+                    <img src="images/servicio3.jpg" alt="Fachadas de vidrio">
+                    <h3>Fachadas de vidrio</h3>
+                </div>
+                <div class="service">
+                    <img src="images/servicio4.jpg" alt="Cristales templados">
+                    <h3>Cristales templados</h3>
+                </div>
+                <div class="service">
+                    <img src="images/servicio5.jpg" alt="Canceles de baño">
+                    <h3>Canceles de baño</h3>
+                </div>
+                <div class="service">
+                    <img src="" alt="Espejos decorativos">
+                    <h3>Espejos decorativos</h3>
+                </div>
+            </div>
+        </section>
+        <section id="catalogos">
+            <h2>Catálogos</h2>
+            <div class="catalogs">
+                <div class="catalog">
+                    <a href="catalogos/catalogo1.pdf" target="_blank">
+                        <img src="images/catalogo1.jpg" alt="Catálogo 1">
+                    </a>
+                    <h3>Catálogo 1</h3>
+                </div>
+                <div class="catalog">
+                    <a href="catalogos/catalogo2.pdf" target="_blank">
+                        <img src="images/catalogo2.jpg" alt="Catálogo 2">
+                    </a>
+                    <h3>Catálogo 2</h3>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información o para solicitar un presupuesto, no dudes en contactarnos:</p>
+            <p>Email: <a href="mailto:dextmetqro@gmail.com">dextmetqro@gmail.comm</a></p>
+            <p>Teléfonos: <a href="tel:+524425610633">+52 442 561 0633</a></p>
+            <p><a href="tel:+524425611598">+52 442 561 1598</a></p>
+            <p>Dirección: Eucalipto, P.º La Floresta, Jardines de Azucenas, 76116 Santiago de Querétaro, Qro, México</p>
+            <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3139.8250029592673!2d-100.48161975672683!3d20.63284147686348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d3514a8f7d650b%3A0x35a40a455203cf1b!2sDextmet%20Qro%20Oficinas!5e0!3m2!1ses-419!2smx!4v1717366360185!5m2!1ses-419!2smx" width="2080" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        <div class="social-media">
+            <a href="https://www.facebook.com/dextmet/?locale=es_LA" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/dextmetqro" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com/dextmetqro" target="_blank">Twitter</a>
+        </div>
+        <p>&copy; 2024 Dextmet Qro. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
